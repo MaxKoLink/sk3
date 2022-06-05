@@ -246,7 +246,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   z-index: 3;
-  min-width: 1200px;
+  width: 1200px;
   min-height: 150px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -268,7 +268,7 @@ body {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
   color: #FFFFFF;
 }
@@ -306,5 +306,118 @@ body {
 
 .header-social__number:hover {
   color: #FF1A29;
+}
+
+@media only screen and (max-width: 1201px) {
+  .container {
+    width: 1000px;
+  }
+  .header-social {
+    width: 1000px;
+  }
+  .section1-title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .container {
+    width: 640px;
+  }
+  .header-social {
+    width: 640px;
+  }
+  .header-text__title {
+    font-size: 40px;
+  }
+  .section1-title {
+    font-size: 30px;
+  }
+  .header-social__media {
+    padding-right: 20px;
+  }
+  .header-social__media-link {
+    padding-left: 20px;
+  }
+  .header-social__number {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  .container {
+    width: 480px;
+  }
+  .header-social {
+    width: 480px;
+  }
+  .header-text__title {
+    line-height: 60px;
+  }
+  .section1-title {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .header-social__media-link img {
+    width: 50px;
+    height: 50px;
+  }
+  .header-social__number {
+    font-size: 25px;
+  }
+  .section1-openHours {
+    font-size: 15px;
+  }
+  .price-priceList__buttons-buttonForm__button {
+    padding: 26px 16px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .container {
+    width: 460px;
+  }
+  .header-social {
+    width: 460px;
+  }
+  .header-text__title {
+    font-size: 30px;
+  }
+  .sectionMap_content {
+    width: 250px;
+  }
+  .sectionMap_text {
+    font-size: 15px;
+    padding: 46px 0 46px 30px;
+  }
+  .price-priceList__buttons-buttonForm__button {
+    padding: 26px 10px;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .container {
+    width: 360px;
+  }
+  .header-social {
+    width: 360px;
+  }
+  .header-text__title {
+    font-size: 25px;
+  }
+  .header-social__number {
+    font-size: 16px;
+  }
+  .header-social__media-link img {
+    width: 40px;
+    height: 40px;
+  }
+  .section1-title {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .price-priceList__buttons-buttonForm__button {
+    padding: 26px 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
