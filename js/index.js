@@ -9,6 +9,16 @@ $(document).ready(function () {
     variableWidth: true,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+    ],
   });
 });
 function openbox(evt, cityName) {
