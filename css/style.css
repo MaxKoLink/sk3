@@ -52,6 +52,10 @@ body {
   z-index: 2;
 }
 
+.logo-mobile {
+  display: none;
+}
+
 .wrapper {
   position: relative;
   min-height: 100vh;
@@ -441,11 +445,14 @@ body {
     width: 320px;
     background: transparent;
   }
+  .header-social {
+    bottom: 40px;
+  }
   .header-text__title {
     padding-top: 10px;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 31px;
+    line-height: 40px;
   }
   .header-social__number {
     font-weight: 700;
@@ -461,8 +468,8 @@ body {
   }
   .section1-title {
     padding-top: 40px;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 15px;
     line-height: 19px;
   }
   .section1-openHours {
@@ -491,6 +498,25 @@ body {
   }
   .sectionMap_text {
     padding-right: 0;
+  }
+  .header-text {
+    bottom: 40vh;
+  }
+  .logo-mobile {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    margin-top: 180px;
+  }
+  .logo-mobile img {
+    width: 320px;
+    height: 320px;
+  }
+  .header-text {
+    display: none;
+  }
+  .logo {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
