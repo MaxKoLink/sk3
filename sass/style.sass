@@ -1,7 +1,3 @@
-@import '_section1'
-@import '_section2'
-@import '_section3'
-@import '_sectionMap'
 
 html
   background-color: #1C1D22
@@ -9,8 +5,17 @@ body
   margin: 0
   font-family: 'Montserrat', sans-serif
 .container
-  width: 1200px
+  max-width: 1200px
   margin: 0 auto
+.slider_button
+  margin-top: 100px
+  text-align: center
+.slider_button a
+  color: white
+  background-color: #FF1A29
+  padding: 20px 40px 20px 40px
+  text-decoration: none
+
 .logo
   position: relative
   z-index: 4
@@ -86,4 +91,9 @@ body
       color: white
 .header-social__number:hover
   color: #FF1A29
+
+@import '_section1'
+@import '_section2'
+@import '_section3'
+@import '_sectionMap'
 @import '_media'
