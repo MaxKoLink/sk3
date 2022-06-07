@@ -330,72 +330,57 @@ body {
   color: white;
 }
 
-@media only screen and (max-width: 1201px) {
+@media only screen and (max-width: 1200px) {
   .container {
-    max-width: 1000px;
+    max-width: 960px;
+  }
+  .header-text__title {
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 78px;
   }
   .header-social {
-    width: 1000px;
+    width: 960px;
+  }
+  .slider_title {
+    margin-bottom: 50px;
   }
   .section1-title {
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
   }
 }
 
-@media only screen and (max-width: 1001px) {
+@media only screen and (max-width: 960px) {
   .container {
     max-width: 640px;
   }
   .header-social {
     width: 640px;
   }
-  .header-text__title {
-    font-size: 40px;
-  }
-  .section1-title {
-    font-size: 30px;
+  .header-social__number {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    padding: 0;
   }
   .header-social__media {
-    padding-right: 20px;
+    padding: 0;
   }
-  .header-social__media-link {
-    padding-left: 20px;
+  .header-text__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
   }
-  .header-social__number {
-    padding-left: 20px;
+  .section1-title {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
   }
 }
 
 @media only screen and (max-width: 641px) {
-  .container {
-    max-width: 480px;
-  }
-  .header-social {
-    width: 480px;
-  }
-  .header-text__title {
-    line-height: 60px;
-  }
-  .section1-title {
-    font-size: 20px;
-    line-height: 50px;
-  }
-  .header-social__media-link img {
-    width: 50px;
-    height: 50px;
-  }
-  .header-social__number {
-    font-size: 25px;
-  }
-  .section1-openHours {
-    font-size: 15px;
-  }
-  .price-priceList__buttons-buttonForm__button {
-    padding: 26px 16px;
-  }
-}
-
-@media only screen and (max-width: 481px) {
   .container {
     max-width: 460px;
   }
@@ -403,43 +388,109 @@ body {
     width: 460px;
   }
   .header-text__title {
+    font-weight: 700;
     font-size: 30px;
+    line-height: 50px;
+  }
+  .header-social__number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .header-social__media-link {
+    padding-left: 26px;
+  }
+  .section1-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .section1-openHours {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  #btn1 {
+    padding: 20px 20px 20px 20px;
+  }
+  #btn2 {
+    padding: 20px 11px 20px 11px;
+  }
+  #myBtn3 {
+    padding: 20px 20px 20px 20px;
+  }
+  #myBtn4 {
+    padding: 20px 10px 20px 10px;
+  }
+  .sectionMap_map {
+    display: none;
+  }
+  .sectionMap {
+    margin-top: 50px;
   }
   .sectionMap_content {
-    width: 250px;
-  }
-  .sectionMap_text {
-    font-size: 15px;
-    padding: 46px 0 46px 30px;
-  }
-  .price-priceList__buttons-buttonForm__button {
-    padding: 26px 10px;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 461px) {
   .container {
-    max-width: 360px;
+    max-width: 320px;
   }
   .header-social {
-    width: 360px;
+    width: 320px;
+    background: transparent;
   }
   .header-text__title {
-    font-size: 24px;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
   }
   .header-social__number {
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
   }
   .header-social__media-link img {
     width: 40px;
     height: 40px;
   }
-  .section1-title {
-    font-size: 16px;
-    line-height: 30px;
+  .header-social__media-link {
+    padding-left: 10px;
   }
-  .price-priceList__buttons-buttonForm__button {
-    padding: 26px 5px;
+  .section1-title {
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .section1-openHours {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  #btn1 {
+    padding: 20px 12px 20px 12px;
+    font-size: 14px;
+  }
+  #btn2 {
+    padding: 20px 12px 20px 12px;
+    font-size: 14px;
+  }
+  #myBtn3 {
+    padding: 20px 12px 20px 12px;
+    font-size: 14px;
+  }
+  #myBtn4 {
+    padding: 20px 12px 20px 12px;
+    font-size: 14px;
+  }
+  .price-priceList__prices-price {
+    font-size: 16px;
+  }
+  .sectionMap_text {
+    padding-right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
